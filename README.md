@@ -14,7 +14,7 @@ A simple npm package to shorten your long urls to short url
 
 ```async function shortenUrl() {
         const shortenedUrl = await shortener("https://www.fb.com");
-    }```
+    };```
 
 
 **#Usage 2**
