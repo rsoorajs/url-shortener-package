@@ -8,7 +8,7 @@ A simple npm package to shorten your long urls to short url
 
 `yarn add shortener`
 
-````
+```
 #Usage 1
 
 
@@ -25,6 +25,5 @@ import shortener from "../node_modules/shortmyurl/";
 
 const shortenedUrl = shortener("https://www.fb.com").then((res) => {
        const shortenedUrl = res;
-    });```
-
-````
+    });
+```
