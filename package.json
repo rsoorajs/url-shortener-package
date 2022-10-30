@@ -1,0 +1,27 @@
+{
+    "name": "shortmyurl",
+    "version": "1.0.2",
+    "description": "A simple npm package to shorten your long urls to short url",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rsoorajs/url-shortener-package.git"
+    },
+    "keywords": [
+        "url",
+        "shortener",
+        "trimurl",
+        "shortit",
+        "shorturl",
+        "longurltoshorturl"
+    ],
+    "author": "Sooraj S R",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rsoorajs/url-shortener-package/issues"
+    },
+    "homepage": "https://github.com/rsoorajs/url-shortener-package#readme"
+}
