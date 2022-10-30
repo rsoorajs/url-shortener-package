@@ -25,7 +25,7 @@ import shortener from "../node_modules/shortmyurl/";
 
 const shortenedUrl = shortener("https://www.fb.com").then((res) => {
        const shortenedUrl = res;
-    });```
+    });
 
 
 
