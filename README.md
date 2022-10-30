@@ -5,6 +5,7 @@ A simple npm package to shorten your long urls to short url
 #Installation
 
 `npm i shortener`
+
 `yarn add shortener`
 
 
