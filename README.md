@@ -12,9 +12,11 @@ A simple npm package to shorten your long urls to short url
 **#Usage 1**
 
 
-`async function shortenUrl() {
+```
+import shortener from "../node_modules/shortmyurl/";
+async function shortenUrl() {
         const shortenedUrl = await shortener("https://www.fb.com");
-    };`
+    }```
 
 
 
