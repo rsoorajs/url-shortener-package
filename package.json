@@ -23,5 +23,8 @@
     "bugs": {
         "url": "https://github.com/rsoorajs/url-shortener-package/issues"
     },
-    "homepage": "https://github.com/rsoorajs/url-shortener-package#readme"
+    "homepage": "https://github.com/rsoorajs/url-shortener-package#readme",
+    "dependencies": {
+        "shortmyurl": "^1.0.2"
+    }
 }
