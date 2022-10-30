@@ -8,11 +8,11 @@ A simple npm package to shorten your long urls to short url
 
 `yarn add shortener`
 
-`
+
 **#Usage 1**
 
 
-async function shortenUrl() {
+`async function shortenUrl() {
         const shortenedUrl = await shortener("https://www.fb.com");
     };`
 
