@@ -1,5 +1,4 @@
 let shortUrl;
-import axios from "axios";
 
 function shortener(url) {
     // Checking if the url is valid or not
@@ -21,12 +20,18 @@ function shortener(url) {
     // If the url is valid then we will send a request to the server
     if (!checkUrl) return "Invalid URL";
     if (checkUrl) {
-        axios.get(`https://api.shrtco.de/v2/shorten?url=${url}`).then((res) => {
-            shortUrl = res.data.result.full_short_link;
+        async function shortIt(url) {
+            const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${url}`);
+            const data = await response.json();
+            shortUrl = data.result.full_short_link;
+            return shortUrl;
+        }
+        const short = shortIt(url).then((result) => {
+            return result;
         });
-    }
 
-    return shortUrl;
+        return short;
+    }
 }
 
 module.exports = shortener;
