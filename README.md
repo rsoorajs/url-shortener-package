@@ -19,6 +19,7 @@ async function shortenUrl() {
         const shortenedUrl = await shortener("https://www.google.com");
     }
 
+      shortenUrl()
 
 
 #Usage 2
