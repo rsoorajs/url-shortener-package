@@ -4,9 +4,11 @@ A simple npm package to shorten your long urls to short url
 
 #Installation
 
-`npm i shortener`
+`npm i shortmyurl`
 
-`yarn add shortener`
+`yarn add shortmyurl`
+
+`pnpm add shortmyurl`
 
 ```
 #Usage 1
