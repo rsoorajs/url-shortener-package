@@ -16,7 +16,9 @@
         "trimurl",
         "shortit",
         "shorturl",
-        "longurltoshorturl"
+        "longurltoshorturl",
+        "react-shortener",
+        "react-url-shortener"
     ],
     "author": "Sooraj S R",
     "license": "ISC",
