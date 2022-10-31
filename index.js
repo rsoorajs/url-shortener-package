@@ -34,4 +34,4 @@ function shortener(url) {
     }
 }
 
-export default shortener;
+module.exports = shortener;

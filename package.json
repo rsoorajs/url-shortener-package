@@ -1,7 +1,7 @@
 {
     "name": "shortmyurl",
     "version": "1.0.12",
-    "description": "A simple npm package to shorten your long urls to short url",
+    "description": "A simple npm package to shorten your long urls to short url for nodejs",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
