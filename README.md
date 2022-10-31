@@ -1,6 +1,6 @@
 # Url Shortener For Reactjs
 
-A simple npm package to shorten your long urls to short url
+A simple npm package to shorten your long urls to short url for reactjs
 
 #Installation
 
