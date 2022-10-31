@@ -1,20 +1,21 @@
 # Url-shortener-package
 
-A simple npm package to shorten your long urls to short url
+A simple npm package to shorten your long urls to short url for nodejs
+Fetch function used in this library is currently in experiemental.so you have to run in experimental mode to make the library works fine.
 
 #Installation
 
-`npm i shortmyurl`
+`npm i urlshorty`
 
-`yarn add shortmyurl`
+`yarn add urlshorty`
 
-`pnpm add shortmyurl`
+`pnpm add urlshorty`
 
 ```
 #Usage 1
 
 
-import shortener from "../node_modules/shortmyurl/";
+const url = require("urlshorty");
 async function shortenUrl() {
         const shortenedUrl = await shortener("https://www.fb.com");
     }
@@ -23,9 +24,14 @@ async function shortenUrl() {
 
 #Usage 2
 
-import shortener from "../node_modules/shortmyurl/";
-
+const url = require("urlshorty");
 const shortenedUrl = shortener("https://www.fb.com").then((res) => {
        const shortenedUrl = res;
     });
+```
+
+#How to run
+
+```
+node --experimental-fetch packagename.js
 ```
