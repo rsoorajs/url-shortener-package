@@ -18,7 +18,10 @@
         "shorturl",
         "longurltoshorturl",
         "react-shortener",
-        "react-url-shortener"
+        "react-url-shortener",
+        "react-link-shortener",
+        "react-url-trimmer",
+        "react-link-trimmer"
     ],
     "author": "Sooraj S R",
     "license": "ISC",
