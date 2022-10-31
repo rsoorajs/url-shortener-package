@@ -1,6 +1,6 @@
 {
     "name": "shortmyurl",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "A simple npm package to shorten your long urls to short url",
     "main": "index.js",
     "scripts": {
