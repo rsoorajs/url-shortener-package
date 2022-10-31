@@ -1,4 +1,4 @@
-# Url-shortener-package
+# Url-shortener-package for Reactjs
 
 A simple npm package to shorten your long urls to short url
 
